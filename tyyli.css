@@ -1,4 +1,4 @@
-h1{
+h1,ul,li,h2,h3,h4,h5,p,th,td,a{
     color: rgb(197, 122, 9);
 }
 body {
