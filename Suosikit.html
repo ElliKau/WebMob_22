@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,29 +20,31 @@
     <link href="assets\css\Vanilja_main.min.css" rel="stylesheet">
 
     <script>
-      $(document).ready(function(){
-          //hakupalkki liukuu näkyviin
+        $(document).ready(function () {
+            //hakupalkki liukuu näkyviin
             $("#srchPalkki").fadeOut();
-            $("#srchNappi").click(() =>{
+            $("#srchNappi").click(() => {
                 $("#srchPalkki").fadeToggle(100);
             })
 
             //napit toimisivat näin 
-            $('#navInspis').click(function(){
-    	$(location).attr("href","Inspiraatio.html"); 
-    });
-      })
+            $('#navInspis').click(function () {
+                $(location).attr("href", "Inspiraatio.html");
+            });
+        })
 
 
     </script>
 
     <title>Vanilja-blogi</title>
 </head>
+
 <body class=" bg-dark">
     <!--Navbaari alkaa-->
-    
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top text-primary p-1">
-        <a class="navbar-brand  text-primary p-1" href="index.html"><span style="font-family:inherit; font-size:70px;">Vanilja</span></a>
+        <a class="navbar-brand  text-primary p-1" href="index.html"><span
+                style="font-family:inherit; font-size:70px;">Vanilja</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -68,10 +71,10 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link text-primary" href="Inspiraatio.html" id="navInspis" role="button"
-                         aria-expanded="false">
+                        aria-expanded="false">
                         Inspiraatio
                     </a>
-                   
+
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-primary" href="Suosikit.html">Suosikit</a>
@@ -81,51 +84,57 @@
             <div id="srcBar">
                 <form id="haku">
                     <input id="srchPalkki" type="text" class="form-text bg-light">
-                    <input id="srchNappi"  type="button" value="Haku" class="btn btn-primary text-dark">
+                    <input id="srchNappi" type="button" value="Haku" class="btn btn-primary text-dark">
                 </form>
             </div>
-        </div> 
-        
+        </div>
+
     </nav>
-    
-    <div class="container-fluid text-center mt-5 p-2" >
-        
+
+    <div class="container-fluid text-center mt-5 p-2">
+
         <div class="row text-primary">
             <div class=" col-sm-2 mt-5 container-md pt-4 ">
                 <a href="https://login.yahoo.com/">vanilja@</a><br>
                 <a href="https://www.instagram.com/">#sometili</a>
             </div>
             <!--Tänne tulee kaikki sisältö niin saadaan keskitettyä-->
-            <div class="col-sm-8 bg-secondary container-md mt-5 rounded-top " style="background-image:url(assets/img/tausta_vaaka_harmaampi.png); height: 100%; background-repeat:repeat;">
+            <div class="col-sm-8 bg-secondary container-md mt-5 rounded-top row"
+                style="background-image:url(assets/img/tausta_vaaka_harmaampi.png); height: 100%; background-repeat:repeat;">
                 <h3 class="bg-dark rounded p-2 mt-5 text-primary ">Suosikit</h3>
-                
+
                 <article class="article p-2 text-dark mt-1 border border-dark rounded col-sm-4">
                     Cupcake marshmallow dragée lollipop I love I love I love sweet roll chocolate bar. Marzipan bear
-                    claw candy icing dessert danish. Pudding gummi bears chupa chups jujubes tootsie roll.
-                    <img src="assets/img/pexels_jalkkari.jpg" class="img-fluid" alt="Responsive image" style="max-width: 40%;">
+                    claw candy icing dessert danish. Pudding gummi bears chupa chups jujubes tootsie roll.<br>
+                    <img src="assets/img/pexels_jalkkari.jpg" class="img-fluid" alt="Responsive image"
+                        style="max-width: 40%;">
                 </article>
                 <article class="article p-2 text-dark mt-1 border border-dark rounded col-sm-4">
                     Danish I love I love pastry I love. Sugar plum cheesecake I love chocolate cake tiramisu liquorice.
                     Cupcake marshmallow dragée lollipop I love I love I love sweet roll chocolate bar. Marzipan bear
-                    claw
-                    <img src="assets/img/pexels_salde.jpg" class="img-fluid " alt="Responsive image" style="max-width: 40%;">
+                    claw<br>
+                    <img src="assets/img/pexels_salde.jpg" class="img-fluid " alt="Responsive image"
+                        style="max-width: 40%;">
                 </article>
                 <article class="article p-2 text-dark mt-1 border border-dark rounded col-sm-4">
                     Danish I love I love pastry I love. Sugar plum cheesecake I love chocolate cake tiramisu liquorice.
                     Cupcake marshmallow dragée lollipop I love I love I love sweet roll chocolate bar. Marzipan bear
-                    claw
-                    <img src="assets/img/pexels_tee.jpg" class="img-fluid " alt="Responsive image" style="max-width: 40%;">
+                    claw<br>
+                    <img src="assets/img/pexels_tee.jpg" class="img-fluid " alt="Responsive image"
+                        style="max-width: 40%;">
                 </article>
                 <article class="article p-2 text-dark mt-1 border border-dark rounded col-sm-4">
                     Danish I love I love pastry I love. Sugar plum cheesecake I love chocolate cake tiramisu liquorice.
                     Cupcake marshmallow dragée lollipop I love I love I love sweet roll chocolate bar. Marzipan bear
-                    claw
-                    <img src="assets/img/pexels-anna-tis-10504080.jpg" class="img-fluid " alt="Responsive image" style="max-width: 40%;">
+                    claw<br>
+                    <img src="assets/img/pexels-anna-tis-10504080.jpg" class="img-fluid " alt="Responsive image"
+                        style="max-width: 40%;">
                 </article>
+            </div>
+            <div class=" col-sm-2 mt-5 container-md p-3">
+            </div>
         </div>
-        <div class=" col-sm-2 mt-5 container-md p-3">
-        </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
