@@ -8,4 +8,7 @@ Sivuston tulee olla responsiiivinen eli käyttökokemuksen tulee säilyä hyvän
 
 Websivustosi tulee olla julkisesti verkon yli katseltavissa. Varmista linkkisi toimivuus ennen palautusta.
 
-//tee max koko kuvalle
+
+-----------------------HEI!-----------------------
+//Tiedosto sisältää kaikki ajamiseen tarvittavat tiedostot, voit nähdä esimerkiksi VSCoden
+// Live Serverillä ajettuna sivuston
