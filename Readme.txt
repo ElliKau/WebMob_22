@@ -7,8 +7,8 @@ Websivustosi tulee olla julkisesti verkon yli katseltavissa. Varmista linkkisi t
 
 
 -----------------------HEI!-----------------------
-//Tiedosto sisältää kaikki ajamiseen tarvittavat tiedostot, voit nähdä esimerkiksi VSCoden
-// Live Serverillä ajettuna sivuston toimivuuden ja bootstrap-muotoilun
+Tiedosto sisältää kaikki ajamiseen tarvittavat tiedostot, voit nähdä esimerkiksi VSCoden
+Live Serverillä ajettuna sivuston toimivuuden ja bootstrap-muotoilun
         Name: Live Server
         Id: ritwickdey.LiveServer
         Description: Launch a development local Server with live reload feature for static & dynamic pages
@@ -21,3 +21,5 @@ bootstrapin mukana tulevia värejä, jotta esim bg-info tai bg-dark ovat sitten 
 kautta koko sivuston.
 
 Sivun rakenne flowchartina tiedostossa /Vaniljasivun_flowchart.html
+Pienen muutoksen tein siinä, että linkit näkyvät aina sivun ylälaidassa myös pienessä koossa,
+eivätkä ne häviä Navigointinapin alle kokoa pienennettäessä.
