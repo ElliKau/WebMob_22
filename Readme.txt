@@ -6,7 +6,8 @@ katseltiinpa verkkosivua tietokoneen näytöltä, tabletilta tai älypuhelimelta
 Websivustosi tulee olla julkisesti verkon yli katseltavissa. Varmista linkkisi toimivuus ennen palautusta.
 
 
------------------------HEI!-----------------------
+                               -----------------------HEI!-----------------------
+
 Tiedosto sisältää kaikki ajamiseen tarvittavat tiedostot, voit nähdä esimerkiksi VSCoden
 Live Serverillä ajettuna sivuston toimivuuden ja bootstrap-muotoilun ( ja kuvat)
         Name: Live Server
@@ -16,12 +17,15 @@ Live Serverillä ajettuna sivuston toimivuuden ja bootstrap-muotoilun ( ja kuvat
         Publisher: Ritwick Dey
         VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
+
 Tyylien värien muuttamiseen käytin Vanilja_main.scss tiedostoa, en niinkään CSS:ää, sillä muokataan
 bootstrapin mukana tulevia värejä, jotta esim bg-info tai bg-dark ovat sitten samanvärisiä
 kautta koko sivuston.
 
+
 Sivun rakenne flowchartina tiedostossa /Vaniljasivun_flowchart.html
 Pienen muutoksen tein siinä, että linkit näkyvät aina sivun ylälaidassa myös pienessä koossa,
 eivätkä ne häviä Navigointinapin alle kokoa pienennettäessä.
+
 
 Valitettavasti kuvia en saanut monen tunnin kokeilun jälkeenkään toimimaan sivulla.
