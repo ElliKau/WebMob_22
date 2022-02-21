@@ -27,6 +27,3 @@ Sivun rakenne flowchartina tiedostossa /Vaniljasivun_flowchart.html
 Pienen muutoksen tein siinä, että linkit näkyvät aina sivun ylälaidassa myös pienessä koossa,
 eivätkä ne häviä Navigointinapin alle kokoa pienennettäessä.
 
-
-Valitettavasti kuvia en saanut monen tunnin kokeilun jälkeenkään toimimaan sivulla, ja taustakuva
-näkyy vain etusivulla, eikä muilla sivuilla. Harmittaa että jäi tähän kuosiin.
