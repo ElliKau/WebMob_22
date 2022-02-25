@@ -18,7 +18,7 @@ Live Serverillä ajettuna sivuston toimivuuden ja bootstrap-muotoilun ( ja kuvat
         VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 
-Tyylien värien muuttamiseen käytin Vanilja_main.scss tiedostoa, en niinkään CSS:ää, sillä muokataan
+Tyylien värien muuttamiseen käytin Vanilja_main.scss tiedostoa eli SASS:iä, sillä muokataan
 bootstrapin mukana tulevia värejä, jotta esim bg-info tai bg-dark ovat sitten samanvärisiä
 kautta koko sivuston.
 
@@ -27,6 +27,3 @@ Sivun rakenne flowchartina tiedostossa /Vaniljasivun_flowchart.html
 Pienen muutoksen tein siinä, että linkit näkyvät aina sivun ylälaidassa myös pienessä koossa,
 eivätkä ne häviä Navigointinapin alle kokoa pienennettäessä.
 
-
-Valitettavasti kuvia en saanut monen tunnin kokeilun jälkeenkään toimimaan sivulla, ja taustakuva
-näkyy vain etusivulla, eikä muilla sivuilla. Harmittaa että jäi tähän kuosiin.
